@@ -13,10 +13,10 @@ const routes = [
 
   },
   {
-    path: '/register',
-    name: 'Register',
+    path: '/registration',
+    name: 'Registration',
     meta: {layout:'auth'},
-    component: () => import('@/views/Register.vue')
+    component: () => import('@/views/Registration.vue')
 
   },
   {

@@ -26,6 +26,8 @@ export default {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 31px;
+  display: flex;
+  list-style: none;
 
   a {
     text-decoration: none;
