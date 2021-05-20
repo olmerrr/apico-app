@@ -20,10 +20,10 @@ const routes = [
 
   },
   {
-    path: '/about',
-    name: 'About',
-    meta: {layout:'main'},
-    component: () => import('@/views/About.vue')
+    path: '/sell',
+    name: 'Sell',
+    meta: {layout:'default'},
+    component: () => import('@/views/Sell.vue')
   }
 ]
 
