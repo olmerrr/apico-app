@@ -24,6 +24,12 @@ const routes = [
     name: 'Sell',
     meta: {layout:'default'},
     component: () => import('@/views/Sell.vue')
+  },
+  {
+    path: '/home',
+    name: 'Home',
+    meta: {layout:'default'},
+    component: () => import('@/views/Home.vue')
   }
 ]
 

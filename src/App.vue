@@ -27,6 +27,8 @@ export default {
 };
 </script>
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
 *,
 *::before,
 *::after {
@@ -34,9 +36,11 @@ export default {
   margin: 0;
 }
 body {
-  color:#2B2B2B;
+  color: #2b2b2b;
   background: #f2f2f2;
+  font-family: "Roboto", sans-serif;
 }
+
 .app-wrapp {
   max-width: 1184px;
   padding: 0 8px;

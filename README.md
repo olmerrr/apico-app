@@ -1,5 +1,5 @@
 # apico-app
-in this prj used VueCLI, Router, Vuelidate lib...
+
 ## Project setup
 ```
 npm install
